@@ -1,0 +1,87 @@
+@import './recursos';
+@import './animacao';
+
+
+nav {
+    background-color: $secundary;
+    width: 101.2%;
+    height: 100px;
+    margin: -8px -8px;
+    margin-bottom: 50px;
+    @include displayFlex();
+
+    .botaoNav {
+        background-color: transparent;
+        font-family: "Josefin Sans", sans-serif;
+        border: none;
+        color: white;
+        font-size: 1.3em;
+    }
+    #linhaCimaSobreNos {
+        background-color: white;
+        width: 110px;
+        height: 2px;
+        position: absolute;
+        top: 68px;
+        left: 35.5%;
+    }
+    #linhaBaixoSobreNos {
+        background-color: white;
+        width: 80px;
+        height: 2px;
+        position: absolute;
+        top: 78px;
+        left: 36.5%;
+    }
+
+    #linhaCimaProjetos {
+        background-color: white;
+        width: 110px;
+        height: 2px;
+        position: absolute;
+        top: 68px;
+        left: 42.6%;
+    }
+    #linhaBaixoProjetos {
+        background-color: white;
+        width: 80px;
+        height: 2px;
+        position: absolute;
+        top: 78px;
+        left: 43.5%;
+    }
+
+    #linhaCimaFeedBacks {
+        background-color: white;
+        width: 110px;
+        height: 2px;
+        position: absolute;
+        top: 68px;
+        left: 49.7%;
+    }
+    #linhaBaixoFeedBacks {
+        background-color: white;
+        width: 80px;
+        height: 2px;
+        position: absolute;
+        top: 78px;
+        left: 50.7%;
+    }
+
+    #linhaCimaContato {
+        background-color: white;
+        width: 110px;
+        height: 2px;
+        position: absolute;
+        top: 68px;
+        left: 57%;
+    }
+    #linhaBaixoContato {
+        background-color: white;
+        width: 80px;
+        height: 2px;
+        position: absolute;
+        top: 78px;
+        left: 58%;
+    }
+}

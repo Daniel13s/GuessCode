@@ -1,0 +1,58 @@
+header {
+    text-align: center;
+    img {
+        width: 101.2%;
+        margin: 0px -8px;
+        box-shadow: 0 0 20px $secundary;
+    }
+    #contrateNos {
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: bold;
+        color: $primary;
+        position: absolute;
+        background-color: $secundary;
+        border: none;
+        width: 300px;
+        height: 80px;
+        font-size: 30px;
+        top: 700px;
+        left: 230px;
+        border-radius: 50px;
+        &:hover {
+            box-shadow: 0px 0px 20px #70A288;
+            color: #70A288;
+        }
+
+    }
+    #circulosBanner {
+        margin-top: 40px;
+        @include displayFlex();
+        #circuloBannerCentro {
+            width: 100px;
+            height: 100px;
+            margin-inline: 20px;
+            border-radius: 100%;
+            background-color: #70A288;
+        }
+        #circuloBannerDentro {
+            background-color: $primary;
+            width: 70px;
+            height: 70px;
+            border-radius: 100%;
+            position: absolute;
+        }
+        #circuloBannerEsquerda {
+            background-color: #70A288;
+            width: 70px;
+            height: 70px;
+            border-radius: 100%;
+        }
+        #circuloBannerDireita {
+            background-color: #70A288;
+            width: 70px;
+            height: 70px;
+            border-radius: 100%;
+        }
+    }
+    
+}

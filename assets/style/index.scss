@@ -1,0 +1,10 @@
+@import './recursos';
+@import './_nav';
+@import './_header';
+@import './_main';
+@import './_footer';
+
+body {
+    background-color: $primary;
+    color: white;
+}
