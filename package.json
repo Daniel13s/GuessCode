@@ -4,7 +4,7 @@
   "description": "Site para startUp!",
   "main": "index.js",
   "scripts": {
-    "dev": "npx parcel index.html",
+    "start": "npx parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Daniel S Cardoso",
