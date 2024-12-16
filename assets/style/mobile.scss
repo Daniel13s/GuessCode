@@ -1,6 +1,11 @@
 /*----------------MOBILE-------------------*/
 
 @media screen and (max-width: 1000px){
+    nav {
+        .navBotoes {
+            margin-inline: 0;
+        }
+    }
     header {
         #contrateNos {
             top: 450px;
@@ -122,6 +127,7 @@
     #sobreNos {
         font-size: 25px;
         text-align: justify;
+        padding-top: 70px;
         margin-inline: 2px;
         @include displayFlex();
         flex-direction: column;

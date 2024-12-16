@@ -5,7 +5,7 @@ const botaoSobreNos = document.getElementById("sobreNosNav")
 botaoSobreNos.addEventListener('mouseenter', mouseSobreNos)
 
 function mouseSobreNos() {
-    const nav = document.querySelector('nav')
+    const nav = document.querySelector('#navBotao1')
     const botaoSobreNos = document.getElementById("sobreNosNav")
 
     const linhaCima = document.createElement('div')
@@ -44,7 +44,7 @@ const botaoProjetos = document.getElementById("projetosNav")
 botaoProjetos.addEventListener('mouseenter', mouseProjetos)
 
 function mouseProjetos() {
-    const nav = document.querySelector('nav')
+    const nav = document.querySelector('#navBotao2')
     const botaoProjetos = document.getElementById("projetosNav")
     
     const linhaCima = document.createElement('div')
@@ -83,7 +83,7 @@ const botaoFeedBacks = document.getElementById("feedBacksNav")
 botaoFeedBacks.addEventListener('mouseenter', mouseFeedBacks)
 
 function mouseFeedBacks() {
-    const nav = document.querySelector('nav')
+    const nav = document.querySelector('#navBotao3')
     const botaoFeedBacks = document.getElementById("feedBacksNav")
     
     const linhaCima = document.createElement('div')
@@ -122,7 +122,7 @@ const botaoContato = document.getElementById("contatoNav")
 botaoContato.addEventListener('mouseenter', mouseContato)
 
 function mouseContato() {
-    const nav = document.querySelector('nav')
+    const nav = document.querySelector('#navBotao4')
     const botaoContato = document.getElementById("contatoNav")
     
     const linhaCima = document.createElement('div')
@@ -156,21 +156,33 @@ function mouseContato() {
 botaoSobreNos.addEventListener('click', direcionarSobreMim)
 function direcionarSobreMim(){
     window.scrollTo(0, 1000)
+    if(window.outerWidth < 1000){
+        window.scrollTo(0, 500)
+    }
 }
 
 botaoProjetos.addEventListener('click', direcionarProjetos)
 function direcionarProjetos(){
     window.scrollTo(0, 1700)
+    if(window.outerWidth < 1000){
+        window.scrollTo(0, 1100)
+    }
 }
 
 botaoFeedBacks.addEventListener('click', direcionarFeedBacks)
 function direcionarFeedBacks(){
     window.scrollTo(0, 2200)
+    if(window.outerWidth < 1000){
+        window.scrollTo(0, 2000)
+    }
 }
 
 botaoContato.addEventListener('click', direcionarContato)
 function direcionarContato(){
     window.scrollTo(0, 3000)
+    if(window.outerWidth < 1000){
+        window.scrollTo(0, 2700)
+    }
 }
 
 const enviarEmail = document.getElementById('enviarContato')

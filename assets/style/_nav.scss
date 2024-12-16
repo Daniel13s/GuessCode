@@ -10,6 +10,11 @@ nav {
     margin-bottom: 50px;
     @include displayFlex();
 
+    .navBotoes {
+        text-align: center;
+        margin-inline: 10px;
+    }
+
     .botaoNav {
         background-color: transparent;
         font-family: "Josefin Sans", sans-serif;
@@ -21,67 +26,51 @@ nav {
         background-color: white;
         width: 110px;
         height: 2px;
-        position: absolute;
-        top: 68px;
-        left: 35.5%;
     }
     #linhaBaixoSobreNos {
         background-color: white;
         width: 80px;
         height: 2px;
-        position: absolute;
-        top: 78px;
-        left: 36.5%;
+        margin-top: 5px;
+        margin-left: 13px;
     }
 
     #linhaCimaProjetos {
         background-color: white;
         width: 110px;
         height: 2px;
-        position: absolute;
-        top: 68px;
-        left: 42.6%;
     }
     #linhaBaixoProjetos {
         background-color: white;
         width: 80px;
         height: 2px;
-        position: absolute;
-        top: 78px;
-        left: 43.5%;
+        margin-top: 5px;
+        margin-left: 13px;
     }
 
     #linhaCimaFeedBacks {
         background-color: white;
         width: 110px;
         height: 2px;
-        position: absolute;
-        top: 68px;
-        left: 49.7%;
     }
     #linhaBaixoFeedBacks {
         background-color: white;
         width: 80px;
         height: 2px;
-        position: absolute;
-        top: 78px;
-        left: 50.7%;
+        margin-top: 5px;
+        margin-left: 13px;
     }
 
     #linhaCimaContato {
         background-color: white;
         width: 110px;
         height: 2px;
-        position: absolute;
-        top: 68px;
-        left: 57%;
     }
     #linhaBaixoContato {
         background-color: white;
         width: 80px;
         height: 2px;
-        position: absolute;
-        top: 78px;
-        left: 58%;
+        margin-top: 5px;
+        margin-left: 13px;
     }
 }
