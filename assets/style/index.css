@@ -315,7 +315,76 @@ footer h2 {
 }
 
 /*----------------MOBILE-------------------*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
+  header #contrateNos {
+    top: 450px;
+    left: 50px;
+  }
+  #sobreNos {
+    font-size: 25px;
+    text-align: justify;
+    margin-inline: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #sobreNos strong {
+    font-size: 35px;
+  }
+  #sobreNos #areaImagemLogoSobreNos #imagemLogoSobreNos {
+    border-radius: 50px;
+    margin-right: 0px;
+    width: 200px;
+    height: 200px;
+  }
+  #projetos {
+    flex-direction: column;
+  }
+  #projetos .projetosSlot {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 50px;
+  }
+  #projetos .direcionamento {
+    width: 100%;
+    height: 80px;
+  }
+  #projetos .ferramentas {
+    width: 80%;
+    height: 60px;
+  }
+  #feedBacks #feedBack1 {
+    width: 300px;
+    height: 110px;
+  }
+  #feedBacks #feedBack2 {
+    width: 300px;
+    height: 110px;
+  }
+  #feedBacks #feedBack3 {
+    width: 300px;
+    height: 110px;
+  }
+  #contato #tituloContato {
+    font-size: 30px;
+  }
+  #contato #descricaoContato {
+    font-size: 15px;
+  }
+  #contato #mensagemParaContato {
+    width: 80%;
+    height: 50px;
+    margin-bottom: 35px;
+    font-size: 25px;
+  }
+  #contato #enviarContato {
+    padding-inline: 50px;
+    padding-block: 20px;
+    border: none;
+  }
+}
+@media screen and (max-width: 700px) {
   nav {
     width: 104%;
   }
@@ -326,7 +395,7 @@ footer h2 {
     display: none;
   }
   header #contrateNos {
-    top: 45%;
+    top: 300px;
     left: 20px;
     font-size: 20px;
     width: 200px;
@@ -401,7 +470,7 @@ footer h2 {
     font-size: 15px;
   }
   #contato #mensagemParaContato {
-    width: 350px;
+    width: 80%;
     height: 50px;
     margin-bottom: 35px;
     font-size: 25px;
@@ -410,6 +479,12 @@ footer h2 {
     padding-inline: 50px;
     padding-block: 20px;
     border: none;
+  }
+  footer {
+    flex-direction: column;
+  }
+  footer #linhaFooter {
+    display: none;
   }
 }
 body {
