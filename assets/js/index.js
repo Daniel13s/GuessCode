@@ -13,6 +13,8 @@ function mouseSobreNos() {
 
     linhaCima.setAttribute('id', 'linhaCimaSobreNos')
     linhaBaixo.setAttribute('id', 'linhaBaixoSobreNos')
+    linhaCima.setAttribute('class', 'linhas')
+    linhaBaixo.setAttribute('class', 'linhas')
 
     linhaBaixo.style.animation = 'aparição'
     linhaBaixo.style.animationIterationCount ='1'
@@ -50,6 +52,8 @@ function mouseProjetos() {
 
     linhaCima.setAttribute('id', 'linhaCimaProjetos')
     linhaBaixo.setAttribute('id', 'linhaBaixoProjetos')
+    linhaCima.setAttribute('class', 'linhas')
+    linhaBaixo.setAttribute('class', 'linhas')
 
     linhaBaixo.style.animation = 'aparição'
     linhaBaixo.style.animationIterationCount ='1'
@@ -87,6 +91,8 @@ function mouseFeedBacks() {
 
     linhaCima.setAttribute('id', 'linhaCimaFeedBacks')
     linhaBaixo.setAttribute('id', 'linhaBaixoFeedBacks')
+    linhaCima.setAttribute('class', 'linhas')
+    linhaBaixo.setAttribute('class', 'linhas')
 
     linhaBaixo.style.animation = 'aparição'
     linhaBaixo.style.animationIterationCount ='1'
@@ -124,6 +130,8 @@ function mouseContato() {
 
     linhaCima.setAttribute('id', 'linhaCimaContato')
     linhaBaixo.setAttribute('id', 'linhaBaixoContato')
+    linhaCima.setAttribute('class', 'linhas')
+    linhaBaixo.setAttribute('class', 'linhas')
 
     linhaBaixo.style.animation = 'aparição'
     linhaBaixo.style.animationIterationCount ='1'
