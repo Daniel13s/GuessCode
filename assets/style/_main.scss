@@ -34,17 +34,20 @@
         height: 350px;
         display: flex;
         align-items: center;
-        justify-content: end;
+        justify-content: center;
         flex-direction: column;
         background-color: $secundary;
         margin-inline: 50px;
         border-radius: 50px;
+        &:hover {
+            justify-content: end;
+            .direcionamento {
+                width: 100%;
+                height: 120px;
+                border-radius:  0 0 50px 50px;
+                background-color: #70A288;
+        }
     }
-    .direcionamento {
-        width: 100%;
-        height: 120px;
-        border-radius:  0 0 50px 50px;
-        background-color: #70A288;
     }
     .ferramentas {
         width: 80%;
